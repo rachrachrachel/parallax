@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100% auto;
+}
+
+.titulo{font-size: 180px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	position:inherit;
+}
+
+/*fondos*/
+
+.uno, .dos, .tres, .cuatro{
+    height: 2000px;
+}
+
+.uno{
+    background:black;
+	background-image: url("../images/luma.png");
+	background-position: center;
+	 background-size: cover;
+	  background-repeat: no-repeat;
+	background-attachment:fixed;;
+}
+
+.dos{
+    background:white;
+    background-image: url("../images/78.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    
+}
+
+.cuatro{
+    background:black;
+	height: 400px;
+}
+
+/*PERSONAJE MAFALDA*/
+
+.personaje{
+    position: fixed;
+    z-index: 1;
+    background-image: url("../images/pendan.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 27%;
+    height: 100%;
+    top: 0;
+    left: 70%;
+}
+
+/*CONTENIDOS*/
+
+.info1, .info2, .info3, .info4, .info5, .info6, .info7, .info8, .info9, .info10{
+    width: 20%;
+    background:#C82638;
+    padding: 20px;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 14px;
+	font-style: normal;
+	border-radius: 20px;
+     }
+.info1, .info2, .info3, .info4, .info5, .info6, .info7, .info8, .info9,.info10{
+	color:white;
+}
+
+.info1{
+    position: absolute;
+    top:250px;
+    left: 10%;
+}
+
+.info2{
+    position: absolute;
+    top:700px;
+    right: 35%;
+}
+
+.info3{
+    position: absolute;
+    top:1050px;
+    left: 10%;
+}
+
+.info4{
+    position: absolute;
+    top:1400px;
+    right: 35%;
+}
+
+.info5{
+    position: absolute;
+    top:1750px;
+     left: 10%;
+}
+.info6{
+    position: absolute;
+    top:2100px;
+    right: 35%;
+}
+.info7{
+    position: absolute;
+    top:2450px;
+    left:10%;
+}
+.info8{
+    position: absolute;
+    top:2800px;
+    right: 35%;
+}
+.info9{
+    position: absolute;
+    top:3200px;
+    left:10%;
+}
+.info10{
+    position: absolute;
+    top:3610px;
+    right:35%;
+}
+.iso{
+    width: 0;
+    height: 0;
+    text-indent: -9999px;
+    border-top: 20px solid #000;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.isoContenedor{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
